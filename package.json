@@ -2,7 +2,7 @@
   "name": "sanjanaa-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanjanaa-venugopal.github.io/sanjanaa-portfolio",
+  "homepage": "https://sanjanaavenugopal.github.io/sanjanaa-portfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
