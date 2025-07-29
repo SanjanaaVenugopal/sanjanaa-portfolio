@@ -16,3 +16,10 @@
   npm run eject
     Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
+
+2. Tailwind
+    Install tailwind - npm install -D tailwindcss@^3.4.1 postcss autoprefixer
+      [v4 did now work]
+    Generate postcss.config.js and tailwind.config.js - npx tailwindcss init -p
+    Import tailwind.config.js in index.css
+    Use the gradients in components
