@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  @apply min-h-screen bg-gradient-to-br from-primary to-accent text-white 
-         dark:from-background dark:to-purple-900 transition-all;
+  @apply min-h-screen bg-gradient-to-br from-primary to-accent text-purple-950 
+         dark:from-background dark:to-purple-900 dark:text-white transition-all;
 }
 
 .App-logo {

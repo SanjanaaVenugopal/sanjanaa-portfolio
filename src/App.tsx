@@ -6,6 +6,7 @@ import { Welcome } from './Components/Welcome/Welcome';
 function App() {
   return (
     <header className='dark'>
+    {/* <header> */}
       <div className="App">
         <Welcome/>
       </div>
