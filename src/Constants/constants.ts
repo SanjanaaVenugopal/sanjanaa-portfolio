@@ -6,4 +6,7 @@ export enum welcome {
 
 export enum commandBar {
   doMore = "DoMore", // Aria label
+  resume = "Resume",
 }
+
+export const iconSize = 16;
