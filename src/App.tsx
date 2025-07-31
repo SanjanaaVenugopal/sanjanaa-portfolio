@@ -6,8 +6,7 @@ import { CommandBar } from './Components/CommandBar/CommandBar';
 
 function App() {
   return (
-    <header className='dark'>
-      {/* <header> */}
+    <header>
       <div className="App">
         <CommandBar />
         <Welcome />

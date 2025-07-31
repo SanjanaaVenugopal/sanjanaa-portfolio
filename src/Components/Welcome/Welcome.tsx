@@ -11,7 +11,8 @@ export const Welcome: React.FC<props> = () => {
         <img
           src={ProfilePic}
           alt={welcome.dpAltText}
-          className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-2 border-purple-950 shadow-md dark:border-white"
+          className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-2 border-purple-950 shadow-md dark:border-white border-opacity-100 border-style"
+          style={{ borderStyle: "solid" }}
         />
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold">{welcome.headline}</h1>
