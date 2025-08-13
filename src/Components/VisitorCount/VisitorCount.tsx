@@ -4,7 +4,7 @@ import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
 import { db } from "../../firebase";
 
 export const VisitorCount = () => {
-    const [count, setCount] = useState(undefined);
+    const [count, setCount] = useState<number | undefined>(undefined);
 
     useEffect(() => {
         try {
