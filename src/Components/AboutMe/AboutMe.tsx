@@ -1,4 +1,3 @@
-import { AboutMeBlinky } from "./AboutMeBlinky";
 import { AboutMeCard } from "./AboutMeCard";
 import { AboutMeTypewriter } from "./AboutMeTypewriter";
 

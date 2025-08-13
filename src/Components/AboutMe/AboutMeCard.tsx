@@ -1,4 +1,3 @@
-import React from "react";
 import { AboutMe } from "../../constants/constants";
 
 export const AboutMeCard = () => {

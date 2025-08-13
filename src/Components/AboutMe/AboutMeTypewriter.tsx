@@ -29,7 +29,7 @@ export const AboutMeTypewriter = ({ speed = 50, pause = 1500 }) => {
         }
 
         return () => clearTimeout(timer);
-    }, [charIndex, isDeleting, textIndex, aboutMeBlinkyTexts, speed, pause]);
+    }, [charIndex, isDeleting, textIndex, speed, pause]);
 
     return <h6 className="text-lg md:text-xl font-medium">{displayText}|</h6>;
 };
