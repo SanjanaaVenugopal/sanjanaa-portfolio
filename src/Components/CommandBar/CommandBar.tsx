@@ -18,7 +18,7 @@ export const CommandBar: React.FC<CommandBarProps> = () => {
     const { isDark, toggleTheme } = useTheme();
 
     return (
-        <div className="sticky top-0 z-50 w-full flex justify-end p-4 bg-transparent">
+        <div className="sticky top-0 z-50 w-full flex justify-end items-center p-4 bg-transparent">
             <VisitorCount />
 
             <Menu >
