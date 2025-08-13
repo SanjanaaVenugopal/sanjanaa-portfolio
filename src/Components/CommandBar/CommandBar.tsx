@@ -9,7 +9,7 @@ import {
     Text,
 } from '@chakra-ui/react';
 import { MoreVertical, Moon, Sun, Download } from 'lucide-react';
-import { commandBar, iconSize } from "../../constants/constants";
+import { commandBar, iconSize } from "../../Constants/constants";
 import { useTheme } from "./useTheme";
 
 type CommandBarProps = {};

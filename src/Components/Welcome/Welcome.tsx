@@ -1,6 +1,6 @@
 import React from "react";
-import { welcome, welcomeHeadline } from "../../constants/constants";
-import ProfilePic from "../../constants/ProfilePic.jpg"
+import { welcome, welcomeHeadline } from "../../Constants/constants";
+import ProfilePic from "../../Constants/ProfilePic.jpg"
 import { AboutMe } from "../AboutMe/AboutMe";
 
 type props = {};
