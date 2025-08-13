@@ -1,10 +1,16 @@
 import React from "react";
-import { welcome } from "../../constants/constants";
+import { welcome, welcomeHeadline } from "../../constants/constants";
 import ProfilePic from "../../constants/ProfilePic.jpg"
 
 type props = {};
 
 export const Welcome: React.FC<props> = () => {
+  const getRandomGreeting = (): string => {
+    const greetings = Object.values(welcomeHeadline);
+    const randomIndex = Math.floor(Math.random() * greetings.length);
+    return greetings[randomIndex];
+  };
+
   return (
     <div className="w-full flex justify-center px-4">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-10 max-w-5xl w-full py-10">
@@ -15,7 +21,7 @@ export const Welcome: React.FC<props> = () => {
           style={{ borderStyle: "solid" }}
         />
         <div className="text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold">{welcome.headline}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold">{getRandomGreeting()}</h1>
           <p className="text-base md:text-lg mt-4 text-muted-foreground">{welcome.tagline}</p>
         </div>
       </div>
