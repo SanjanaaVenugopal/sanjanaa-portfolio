@@ -1,6 +1,7 @@
 import React from "react";
 import { welcome, welcomeHeadline } from "../../constants/constants";
 import ProfilePic from "../../constants/ProfilePic.jpg"
+import { AboutMe } from "../AboutMe/AboutMe";
 
 type props = {};
 
@@ -20,9 +21,11 @@ export const Welcome: React.FC<props> = () => {
           className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-2 border-purple-950 shadow-md dark:border-white border-opacity-100 border-style"
           style={{ borderStyle: "solid" }}
         />
-        <div className="text-center md:text-left">
+        <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold">{getRandomGreeting()}</h1>
           <p className="text-base md:text-lg mt-4 text-muted-foreground">{welcome.tagline}</p>
+          <br />
+          <AboutMe />
         </div>
       </div>
     </div>
