@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { aboutMeBlinkyTexts } from "../../Constants/constants";
+import { aboutMeBlinkyTexts } from "../../Data/constants";
 
 export const AboutMeTypewriter = ({ speed = 50, pause = 1500 }) => {
     const [displayText, setDisplayText] = useState("");

@@ -1,4 +1,4 @@
-import { AboutMe } from "../../Constants/constants";
+import { AboutMe } from "../../Data/constants";
 
 export const AboutMeCard = () => {
     return (

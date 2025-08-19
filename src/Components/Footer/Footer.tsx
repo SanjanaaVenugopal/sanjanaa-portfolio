@@ -1,7 +1,7 @@
 import { useDisclosure } from "@chakra-ui/react";
 import { Contact2 } from "lucide-react";
 import { ContactMe } from "../CommandBar/ContactMe";
-import { socialLinks } from "../../Constants/constants";
+import { socialLinks } from "../../Data/constants";
 
 export const Footer = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();

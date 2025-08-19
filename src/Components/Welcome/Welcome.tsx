@@ -1,5 +1,5 @@
 import React from "react";
-import { welcome, welcomeHeadline } from "../../Constants/constants";
+import { welcome, welcomeHeadline } from "../../Data/constants";
 import ProfilePic from "../../Constants/ProfilePic.jpg"
 import { AboutMe } from "../AboutMe/AboutMe";
 

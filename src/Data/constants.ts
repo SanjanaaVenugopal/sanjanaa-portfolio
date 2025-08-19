@@ -1,4 +1,4 @@
-import { Github, Instagram, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin, Palette } from "lucide-react";
 
 export enum welcome {
   headline = "Hi, I'm Sanjanaa",
@@ -93,6 +93,10 @@ export const socialLinks = [
   {
     href: "https://www.instagram.com/sanjanaa_venugopal/",
     Icon: Instagram,
+  },
+  {
+    href: "",
+    Icon: Palette,
   },
 ];
 

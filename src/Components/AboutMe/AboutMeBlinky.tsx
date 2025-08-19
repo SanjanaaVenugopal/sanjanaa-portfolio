@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { aboutMeBlinkyTexts } from "../../Constants/constants";
+import { aboutMeBlinkyTexts } from "../../Data/constants";
 
 export const AboutMeBlinky = () => {
     const [index, setIndex] = useState(0);

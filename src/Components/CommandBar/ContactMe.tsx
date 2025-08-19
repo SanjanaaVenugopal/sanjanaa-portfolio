@@ -13,7 +13,7 @@ import {
     SliderThumb,
 } from "@chakra-ui/react";
 import { ContactForm } from "./ContactForm";
-import { ContactMeClown, ContactMeEmail, ContactMeSlider } from "../../Constants/constants";
+import { ContactMeClown, ContactMeEmail, ContactMeSlider } from "../../Data/constants";
 
 type ContactMeProps = { isOpen: boolean; onClose: () => void };
 

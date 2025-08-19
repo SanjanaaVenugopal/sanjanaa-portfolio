@@ -11,7 +11,7 @@ import {
     FormErrorMessage,
     CloseButton,
 } from "@chakra-ui/react";
-import { ContactFormTexts } from "../../Constants/constants";
+import { ContactFormTexts } from "../../Data/constants";
 import { emailJS } from "../../EmailJS.config";
 
 type ContactFormProps = { onResult: (ok: boolean) => void, onClose: () => void };
