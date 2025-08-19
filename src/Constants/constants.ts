@@ -39,13 +39,13 @@ export const welcomeHeadlineWithAudioSupport: Record<
 };
 
 export const aboutMeBlinkyTexts = [
-  "Full-stack developer at Microsoft",
-  "Computer Science Post graduate from IIT Madras",
-  "All India Rank 45 - GATE CS 2021",
+  "🤓 Full-stack developer at Microsoft",
+  "🎓 Computer Science Post graduate from IIT Madras",
+  "🥇 All India Rank 45 - GATE CS 2021",
 ];
 
 export enum AboutMe {
-  line1 = "I'm a full-stack developer passionate about creating interactive, fun, and user-friendly web experiences. I love exploring new technologies and building quirky projects that make people smile.",
+  line1 = "I'm Sanjanaa, a full-stack developer passionate about creating interactive, fun, and user-friendly web experiences. I love exploring new technologies and building quirky projects that make people smile.",
   line2 = "I have a strong foundation in React, JavaScript, and system designing. I enjoy designing playful UI/UX features while opting for cool & stable design choices.",
 }
 
