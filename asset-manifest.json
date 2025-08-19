@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sanjanaa-portfolio/static/css/main.f3574fec.css",
-    "main.js": "/sanjanaa-portfolio/static/js/main.603494ef.js",
+    "main.css": "/sanjanaa-portfolio/static/css/main.a3405676.css",
+    "main.js": "/sanjanaa-portfolio/static/js/main.3c1338a3.js",
     "static/js/453.49d8df1b.chunk.js": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js",
     "static/media/ProfilePic.jpg": "/sanjanaa-portfolio/static/media/ProfilePic.e084129b272c6fa45019.jpg",
     "static/media/SLogo.png": "/sanjanaa-portfolio/static/media/SLogo.e6898d7fffd7e51ce268.png",
     "index.html": "/sanjanaa-portfolio/index.html",
-    "main.f3574fec.css.map": "/sanjanaa-portfolio/static/css/main.f3574fec.css.map",
-    "main.603494ef.js.map": "/sanjanaa-portfolio/static/js/main.603494ef.js.map",
+    "main.a3405676.css.map": "/sanjanaa-portfolio/static/css/main.a3405676.css.map",
+    "main.3c1338a3.js.map": "/sanjanaa-portfolio/static/js/main.3c1338a3.js.map",
     "453.49d8df1b.chunk.js.map": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3574fec.css",
-    "static/js/main.603494ef.js"
+    "static/css/main.a3405676.css",
+    "static/js/main.3c1338a3.js"
   ]
 }
