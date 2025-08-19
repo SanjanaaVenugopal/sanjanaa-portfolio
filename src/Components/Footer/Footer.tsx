@@ -2,6 +2,7 @@ import { useDisclosure } from "@chakra-ui/react";
 import { Contact2 } from "lucide-react";
 import { ContactMe } from "../CommandBar/ContactMe";
 import { socialLinks } from "../../Data/constants";
+import SocialIcon from "./SocialIcon";
 
 export const Footer = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -12,15 +13,7 @@ export const Footer = () => {
                 <div className="flex justify-center space-x-6 mb-3">
                     {
                         socialLinks.map(({ href, Icon }) => (
-                            <a
-                                key={href}
-                                href={href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="hover:opacity-80 transition"
-                            >
-                                <Icon size={28} className="text-purple-950 dark:text-white/80" />
-                            </a>
+                            <SocialIcon href={href} Icon={Icon} />
                         ))
                     }
                     <button
