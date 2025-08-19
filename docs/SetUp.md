@@ -28,7 +28,14 @@
    npm install lucide-react -- https://lucide.dev/guide/
 
 4.Chakra UI
-    https://chakra-ui.com/docs/get-started/installation
-    Chakra v3 did not work, force installed v2
-    npm uninstall @chakra-ui/react @emotion/react @emotion/styled framer-motion
-    npm install @chakra-ui/react@2 @emotion/react @emotion/styled framer-motion
+https://chakra-ui.com/docs/get-started/installation
+Chakra v3 did not work, force installed v2
+npm uninstall @chakra-ui/react @emotion/react @emotion/styled framer-motion
+npm install @chakra-ui/react@2 @emotion/react @emotion/styled framer-motion
+
+5. WEb speech API - https://webaudio.github.io/web-speech-api/#dom-speechsynthesisutterance-lang
+
+6. EmailJS
+   Service - https://dashboard.emailjs.com/admin
+   Template - https://dashboard.emailjs.com/admin/templates/w8kfd5n
+   Install - npm install emailjs-com

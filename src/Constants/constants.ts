@@ -7,6 +7,7 @@ export enum welcome {
 export enum commandBar {
   doMore = "DoMore", // Aria label
   resume = "Resume",
+  contactMe = "Contact me",
 }
 
 export enum welcomeHeadline {
@@ -28,6 +29,15 @@ export enum welcomeHeadline {
   mwr = "नमस्कार, म्हारो नाम संजना है", //Marwari
 }
 
+export const welcomeHeadlineWithAudioSupport: Record<
+  string,
+  { text: string; lang: string }
+> = {
+  en: { text: "Hi, I am Sanjanaa", lang: "en-US" },
+  fr: { text: "Bonjour, je suis Sanjanaa", lang: "fr-FR" },
+  hi: { text: "नमस्ते, मैं संजना हूँ", lang: "hi-IN" },
+};
+
 export const aboutMeBlinkyTexts = [
   "Full-stack developer at Microsoft",
   "Computer Science Post graduate from IIT Madras",
@@ -37,6 +47,36 @@ export const aboutMeBlinkyTexts = [
 export enum AboutMe {
   line1 = "I'm a full-stack developer passionate about creating interactive, fun, and user-friendly web experiences. I love exploring new technologies and building quirky projects that make people smile.",
   line2 = "I have a strong foundation in React, JavaScript, and system designing. I enjoy designing playful UI/UX features while opting for cool & stable design choices.",
+}
+
+export enum ContactFormTexts {
+  headline = "Email me!",
+  name = "Name",
+  title = "Title",
+  message = "Message",
+  email = "Email id",
+  emailError = "Please enter a valid email address!",
+  nameError = "Name must be at least 3 characters!",
+  messageError = "Message must be at least 3 characters!",
+  send = "Send",
+}
+
+export enum ContactMeSlider {
+  sliderHeader = "Drop your number!",
+  sliderValue = "Your number: ",
+  sliderClose = "Close",
+}
+
+export enum ContactMeClown {
+  header = "Just kidding! 🤡",
+  tagline = "I don't want your contact number 😛",
+}
+
+export enum ContactMeEmail {
+  successHeader = "Message Sent!🎉",
+  successTagline = "Thanks for reaching out. I'll get back to you soon!",
+  failureHeader = "Something went wrong!😢",
+  failureTagline = "Please try again!",
 }
 
 export const iconSize = 16;
