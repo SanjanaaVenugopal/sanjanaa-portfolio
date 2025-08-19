@@ -69,7 +69,7 @@ export enum ContactMeSlider {
 
 export enum ContactMeClown {
   header = "Just kidding! 🤡",
-  tagline = "I don't want your contact number 😛",
+  tagline = "I'm not storing your number.. 😛",
 }
 
 export enum ContactMeEmail {

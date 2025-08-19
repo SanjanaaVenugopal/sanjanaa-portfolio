@@ -57,7 +57,7 @@ export const ContactMe: React.FC<ContactMeProps> = ({ isOpen, onClose }) => {
     }
 
     return (
-        <Modal isOpen={isOpen} onClose={onClose} isCentered >
+        <Modal isOpen={isOpen} onClose={onClose} isCentered size={{ base: "xs", md: "lg", lg: "xl" }} >
             <ModalOverlay />
             <ModalContent className="dark:!bg-purple-100/70 !bg-zinc-600/30 hover:opacity-80 !m-0 !p-2 backdrop-blur-md">
                 {phase === "slider" && (
