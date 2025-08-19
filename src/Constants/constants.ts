@@ -1,3 +1,5 @@
+import { Github, Instagram, Linkedin } from "lucide-react";
+
 export enum welcome {
   headline = "Hi, I'm Sanjanaa",
   tagline = "Welcome to my whimsical corner of the web!",
@@ -78,5 +80,20 @@ export enum ContactMeEmail {
   failureHeader = "Something went wrong!😢",
   failureTagline = "Please try again!",
 }
+
+export const socialLinks = [
+  {
+    href: "https://github.com/SanjanaaVenugopal",
+    Icon: Github,
+  },
+  {
+    href: "https://www.linkedin.com/in/sanjanaa-gv/",
+    Icon: Linkedin,
+  },
+  {
+    href: "https://www.instagram.com/sanjanaa_venugopal/",
+    Icon: Instagram,
+  },
+];
 
 export const iconSize = 16;
