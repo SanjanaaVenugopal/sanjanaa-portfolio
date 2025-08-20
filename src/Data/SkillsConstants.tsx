@@ -10,11 +10,11 @@ import {
   FaJava,
   FaGithub,
   FaGitAlt,
-  FaTools
+  FaTools,
+  FaServer
 } from "react-icons/fa";
-import { MdDesignServices } from "react-icons/md";
+import { MdDesignServices, MdWebhook } from "react-icons/md";
 import {
-  SiExpress,
   SiChakraui,
   SiTailwindcss,
   SiJest,
@@ -25,9 +25,7 @@ import {
   SiMysql,
   SiC,
   SiCplusplus,
-  // SiCsharp,
   SiSpringboot,
-  //   SiAzuredataexplorer,
   SiFirebase,
   SiPostman,
   SiNumpy,
@@ -41,7 +39,6 @@ import {
   SiHuggingface,
 } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
-import { TbLayersIntersect } from "react-icons/tb";
 import { RiRobot2Line } from "react-icons/ri";
 import { ImDatabase } from "react-icons/im";
 
@@ -60,7 +57,7 @@ import { Icon } from "../Components/Skills/Icon";
 export const skills = [
   {
     category: "Frontend",
-    icon: TbLayersIntersect,
+    icon: MdWebhook,
     skills: [
       { name: "ReactJS", icon: FaReact },
       { name: "Redux", icon: SiRedux },
@@ -84,9 +81,9 @@ export const skills = [
   },
   {
     category: "Backend",
-    icon: FaNodeJs,
+    icon: FaServer,
     skills: [
-      { name: "Node.js", icon: FaNodeJs },,
+      { name: "Node.js", icon: FaNodeJs }, ,
       { name: "Databases", icon: FaDatabase },
       { name: "C", icon: SiC },
       { name: "C++", icon: SiCplusplus },
