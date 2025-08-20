@@ -39,3 +39,5 @@ npm install @chakra-ui/react@2 @emotion/react @emotion/styled framer-motion
    Service - https://dashboard.emailjs.com/admin
    Template - https://dashboard.emailjs.com/admin/templates/w8kfd5n
    Install - npm install emailjs-com
+
+7. React icons for skills & its icons

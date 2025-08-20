@@ -81,6 +81,10 @@ export enum ContactMeEmail {
   failureTagline = "Please try again!",
 }
 
+export enum SkillsHeader {
+  header = "Skills",
+}
+
 export const socialLinks = [
   {
     href: "https://github.com/SanjanaaVenugopal",
