@@ -2,7 +2,7 @@ import { SimpleGrid, Box, Heading } from "@chakra-ui/react";
 import { useState } from "react";
 import { SkillCard } from "./SkillsCard";
 import { SkillsModal } from "./SkillsModal";
-import { skills } from "../../Data/Skills";
+import { skills } from "../../Data/SkillsConstants";
 import { SkillsHeader } from "../../Data/constants";
 
 export const Skills = () => {

@@ -10,6 +10,7 @@ import {
   FaJava,
   FaGithub,
   FaGitAlt,
+  FaTools
 } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md";
 import {
@@ -33,7 +34,6 @@ import {
   SiPandas,
   SiScikitlearn,
   SiLatex,
-  //   SiVisualstudiocode,
   SiEclipseide,
   SiOpenai,
   SiTensorflow,
@@ -42,17 +42,24 @@ import {
 } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { TbLayersIntersect } from "react-icons/tb";
-// import { GrRest } from "react-icons/gr";
-// import { BiLogoCopilot } from "react-icons/bi";
 import { RiRobot2Line } from "react-icons/ri";
 import { ImDatabase } from "react-icons/im";
 
-import Playwright from "./Icons/Playwright.png"; // adjust path
-import { ImageIcon } from "../Components/Skills/ImageIcon";
+import Playwright from "./Icons/Playwright.png";
+import ADF from "./Icons/ADF.png";
+import cosmos from "./Icons/cosmos.png";
+import Copilot from "./Icons/copilot.png";
+import Csharp from "./Icons/Csharp.png";
+import FluentUI from "./Icons/FluentUI.svg";
+import Kusto from "./Icons/Kusto.svg";
+import REST from "./Icons/REST.png";
+import VSCcode from "./Icons/VSCode.png";
+
+import { Icon } from "../Components/Skills/Icon";
 
 export const skills = [
   {
-    category: "Frontend + Designing",
+    category: "Frontend",
     icon: TbLayersIntersect,
     skills: [
       { name: "ReactJS", icon: FaReact },
@@ -61,14 +68,14 @@ export const skills = [
       { name: "Wireframing", icon: MdDesignServices },
       { name: "Javascript", icon: SiJavascript },
       { name: "Typescript", icon: SiTypescript },
-      { name: "FluentUI", icon: FaReact }, // closest available
+      { name: "FluentUI", icon: () => <Icon src={FluentUI} alt="FluentUI" /> }, // closest available
       { name: "ChakraUI", icon: SiChakraui },
       { name: "Html", icon: FaHtml5 },
       { name: "CSS", icon: FaCss3Alt },
       { name: "Tailwind CSS", icon: SiTailwindcss },
       {
         name: "Playwright",
-        icon: () => <ImageIcon src={Playwright} alt="Playwright" />,
+        icon: () => <Icon src={Playwright} alt="Playwright" />,
       },
       { name: "Jest", icon: SiJest },
       { name: "State Mgmt", icon: SiRedux },
@@ -79,32 +86,22 @@ export const skills = [
     category: "Backend",
     icon: FaNodeJs,
     skills: [
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Express", icon: SiExpress },
+      { name: "Node.js", icon: FaNodeJs },,
       { name: "Databases", icon: FaDatabase },
       { name: "C", icon: SiC },
       { name: "C++", icon: SiCplusplus },
       { name: "Java", icon: FaJava },
-      //   { name: "CSharp", icon: SiCsharp },
+      { name: "CSharp", icon: () => <Icon src={Csharp} alt="CSharp" /> },
       { name: "PostgreSQL", icon: SiPostgresql },
       { name: "MySQL", icon: SiMysql },
-      //   { name: "KQL", icon: SiAzuredataexplorer },
-      { name: "Cosmos", icon: ImDatabase }, // no direct cosmos icon
-      { name: "ActiveMQ", icon: ImDatabase }, // placeholder
+      { name: "Kusto", icon: () => <Icon src={Kusto} alt="Kusto" /> },
+      { name: "Cosmos", icon: () => <Icon src={cosmos} alt="Cosmos" /> },
+      { name: "ActiveMQ", icon: ImDatabase },
       { name: "Springboot", icon: SiSpringboot },
-      //   { name: "Azure Data Factory", icon: SiAzuredataexplorer },
-      //   { name: "REST APIs", icon: GrRest },
+      { name: "Azure Data Factory", icon: () => <Icon src={ADF} alt="ADF" /> },
+      { name: "REST APIs", icon: () => <Icon src={REST} alt="REST" /> },
       { name: "Postman", icon: SiPostman },
       { name: "Firebase", icon: SiFirebase },
-    ],
-  },
-  {
-    category: "Libraries",
-    icon: FaReact,
-    skills: [
-      { name: "React", icon: FaReact },
-      { name: "Redux", icon: SiRedux },
-      { name: "Chakra UI", icon: SiChakraui },
     ],
   },
   {
@@ -119,7 +116,7 @@ export const skills = [
       { name: "Pandas", icon: SiPandas },
       { name: "HuggingFace", icon: SiHuggingface },
       { name: "Agentic AI", icon: RiRobot2Line },
-      //   { name: "Copilot", icon: BiLogoCopilot },
+      { name: "Copilot", icon: () => <Icon src={Copilot} alt="Copilot" /> },
       { name: "OpenAI endpoints", icon: SiOpenai },
       { name: "Machine learning", icon: GiArtificialIntelligence },
       { name: "Deep learning", icon: GiArtificialIntelligence },
@@ -130,11 +127,11 @@ export const skills = [
   },
   {
     category: "Others",
-    icon: FaBrain,
+    icon: FaTools,
     skills: [
       { name: "Git", icon: FaGitAlt },
       { name: "GitHub", icon: FaGithub },
-      //   { name: "VS Code", icon: SiVisualstudiocode },
+      { name: "VS Code", icon: () => <Icon src={VSCcode} alt="VSCode" /> },
       { name: "Postman", icon: SiPostman },
       { name: "Latex", icon: SiLatex },
       { name: "Eclipse", icon: SiEclipseide },

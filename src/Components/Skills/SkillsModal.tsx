@@ -6,7 +6,7 @@ import {
 } from "@chakra-ui/react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { useSwipeable } from "react-swipeable";
-import { skills } from "../../Data/Skills";
+import { skills } from "../../Data/SkillsConstants";
 import { iconSize } from "../../Data/constants";
 
 type SkillsModalProps = {

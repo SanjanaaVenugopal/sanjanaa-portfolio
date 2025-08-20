@@ -1,12 +1,13 @@
 import React from "react";
 
-type ImageIconProps = {
+type IconProps = {
     src: string;   // path to your PNG/SVG
     alt?: string;  // optional alt text
     size?: number; // default size
 }
 
-export const ImageIcon: React.FC<ImageIconProps> = ({ src, alt = "", size = 24 }) => (
+
+export const Icon: React.FC<IconProps> = ({ src, alt = "", size = 24 }) => (
     <img
         src={src}
         alt={alt}
@@ -16,6 +17,7 @@ export const ImageIcon: React.FC<ImageIconProps> = ({ src, alt = "", size = 24 }
             objectFit: "contain",
             display: "inline-block",
         }}
+        className="invert dark:invert-0"
     />
 );
 
