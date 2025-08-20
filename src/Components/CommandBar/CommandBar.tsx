@@ -1,5 +1,5 @@
 import { VisitorCount } from "../VisitorCount/VisitorCount";
-import SLogo from "../../Constants/SLogo.png"
+import SLogo from "../../Data/SLogo.png"
 import { MenuComponent } from "./MenuComponent";
 
 type CommandBarProps = {};

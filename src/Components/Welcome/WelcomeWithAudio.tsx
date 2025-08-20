@@ -1,6 +1,6 @@
 import React from "react";
 import { welcome, welcomeHeadlineWithAudioSupport } from "../../Data/constants";
-import ProfilePic from "../../Constants/ProfilePic.jpg"
+import ProfilePic from "../../Data/ProfilePic.jpg"
 import { AboutMe } from "../AboutMe/AboutMe";
 
 type props = {};
