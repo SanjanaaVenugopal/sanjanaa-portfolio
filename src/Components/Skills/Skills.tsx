@@ -15,7 +15,7 @@ export const Skills = () => {
     };
 
     return (
-        <Box className="text-purple-950 dark:text-white">
+        <Box className="text-purple-950 dark:text-white  py-10">
             <Heading
                 as="h3"
                 size="lg"
@@ -28,8 +28,9 @@ export const Skills = () => {
             <SimpleGrid
                 columns={[1, 2, 3, 4]}
                 spacing={2}
-                maxW="900px"
+                maxW={{ base: "100%", sm: "300px", md: "700px", lg: "700px", xl: "700px" }}
                 mx="auto"
+                justifyItems="center"
             >
                 {skills.map((category, index) => (
                     <SkillCard

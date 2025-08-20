@@ -14,7 +14,7 @@ export const Welcome: React.FC<props> = () => {
 
   return (
     <div className="w-full flex justify-center px-4">
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-10 max-w-5xl w-full py-10">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-10 max-w-5xl w-full py-2">
         <img
           src={ProfilePic}
           alt={welcome.dpAltText}
