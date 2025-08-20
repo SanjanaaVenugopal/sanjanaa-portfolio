@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/sanjanaa-portfolio/static/css/main.a3405676.css",
-    "main.js": "/sanjanaa-portfolio/static/js/main.15c92ed2.js",
+    "main.css": "/sanjanaa-portfolio/static/css/main.434e0df3.css",
+    "main.js": "/sanjanaa-portfolio/static/js/main.2e3153bc.js",
     "static/js/453.49d8df1b.chunk.js": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js",
     "static/media/ProfilePic.jpg": "/sanjanaa-portfolio/static/media/ProfilePic.e084129b272c6fa45019.jpg",
+    "static/media/cosmos.png": "/sanjanaa-portfolio/static/media/cosmos.f130d3d50b9d037305af.png",
+    "static/media/VSCode.png": "/sanjanaa-portfolio/static/media/VSCode.28b96aa2f1e074abb309.png",
     "static/media/SLogo.png": "/sanjanaa-portfolio/static/media/SLogo.e6898d7fffd7e51ce268.png",
+    "static/media/REST.png": "/sanjanaa-portfolio/static/media/REST.689237cc4a5a4a88b110.png",
+    "static/media/Csharp.png": "/sanjanaa-portfolio/static/media/Csharp.0d974502a8152e2981ec.png",
+    "static/media/copilot.png": "/sanjanaa-portfolio/static/media/copilot.b45dd094c16a0304c087.png",
+    "static/media/FluentUI.svg": "/sanjanaa-portfolio/static/media/FluentUI.a338d43152465e765aef31e9c5472d31.svg",
     "index.html": "/sanjanaa-portfolio/index.html",
-    "main.a3405676.css.map": "/sanjanaa-portfolio/static/css/main.a3405676.css.map",
-    "main.15c92ed2.js.map": "/sanjanaa-portfolio/static/js/main.15c92ed2.js.map",
+    "static/media/Kusto.svg": "/sanjanaa-portfolio/static/media/Kusto.b953ce5275729acb82158090a153b072.svg",
+    "main.434e0df3.css.map": "/sanjanaa-portfolio/static/css/main.434e0df3.css.map",
+    "main.2e3153bc.js.map": "/sanjanaa-portfolio/static/js/main.2e3153bc.js.map",
     "453.49d8df1b.chunk.js.map": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3405676.css",
-    "static/js/main.15c92ed2.js"
+    "static/css/main.434e0df3.css",
+    "static/js/main.2e3153bc.js"
   ]
 }
