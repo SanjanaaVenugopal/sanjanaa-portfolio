@@ -4,10 +4,6 @@
          dark:from-background dark:to-purple-500 dark:text-white transition-all;
 }
 
-body {
-  overscroll-behavior: none;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
