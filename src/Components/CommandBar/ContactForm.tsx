@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { ContactFormTexts } from "../../Data/constants";
 import { emailJS } from "../../EmailJS.config";
+import { CloseButtonIcon } from "./CloseButtonIcon";
 
 type ContactFormProps = { onResult: (ok: boolean) => void, onClose: () => void };
 
@@ -65,12 +66,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onResult, onClose }) =
         <form onSubmit={sendEmail}>
             <ModalHeader className="dark:!text-purple-950 !text-white/80 flex">
                 {ContactFormTexts.headline}
-                <CloseButton
+                <CloseButtonIcon
                     onClick={onClose}
-                    position="absolute"
-                    right="12px"
-                    top="12px"
-                    className="!bg-transparent dark:!text-purple-950 !text-white/80 transition-all duration-200 hover:backdrop-blur-md "
                 />
             </ModalHeader>
             <ModalBody className="dark:!text-purple-950 !text-white/80">

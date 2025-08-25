@@ -1,8 +1,9 @@
-import { useDisclosure } from "@chakra-ui/react";
+import { Button, useDisclosure } from "@chakra-ui/react";
 import { Contact2 } from "lucide-react";
 import { ContactMe } from "../CommandBar/ContactMe";
 import { socialLinks } from "../../Data/constants";
-import SocialIcon from "./SocialIcon";
+import { SocialIcon } from "./SocialIcon";
+import { ReportBug } from "./ReportBug";
 
 export const Footer = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -22,6 +23,7 @@ export const Footer = () => {
                     >
                         <Contact2 size={28} className="text-purple-950 dark:text-white/80" />
                     </button>
+                    <ReportBug size={28} />
                 </div>
 
                 <p className="text-center text-xs text-purple-950 dark:text-white/80">

@@ -104,4 +104,20 @@ export const socialLinks = [
   },
 ];
 
+export const ReportBugTitle = [
+  "Are you sure it's not by design?",
+  "Are you reaaally sure??",
+  "Did you double-check? 👀",
+  "Do you still think this is a bug?",
+  "Pretty sure it's by design… still want to report it?",
+  "Wow, you're persistent! Still sure about this?",
+  "Final chance… are you absolutely, positively sure? 🤨",
+  "Okay okay! You win 😤 Go ahead and report it!",
+];
+
+export enum ReportBugButtonTexts {
+  yes = "Yes",
+  no = "No",
+}
+
 export const iconSize = 16;

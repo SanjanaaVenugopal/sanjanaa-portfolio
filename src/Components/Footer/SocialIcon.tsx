@@ -6,7 +6,7 @@ interface SocialIconProps {
     size?: number;
 }
 
-const SocialIcon: React.FC<SocialIconProps> = ({ href, Icon, size = 28 }) => {
+export const SocialIcon: React.FC<SocialIconProps> = ({ href, Icon, size = 28 }) => {
     return (
         <a
             href={href}
@@ -19,4 +19,3 @@ const SocialIcon: React.FC<SocialIconProps> = ({ href, Icon, size = 28 }) => {
     );
 };
 
-export default SocialIcon;
