@@ -18,8 +18,7 @@ export const CommandBar: React.FC<CommandBarProps> = () => {
     }, []);
     return (
         <>
-            {/* <div className={`sticky top-0 z-50 w-full flex justify-between items-center p-4 transition-all duration-500 ${scrolled ? "bg-white/30 dark:bg-black/30 backdrop-blur-md opacity-100" : "bg-transparent opacity-0"}`} > */}
-            <div className="sticky top-0 z-50 w-full flex justify-between items-center p-4 bg-transparent" >
+            <div className={`sticky top-0 z-50 w-full flex justify-between items-center p-4 transition-all duration-500 ${scrolled ? "bg-white/30 dark:bg-black/30 backdrop-blur-md opacity-100" : "bg-transparent"}`} >
                 < img
                     src={SLogo}
                     alt={"Logo"}
