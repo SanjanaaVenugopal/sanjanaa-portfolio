@@ -23,9 +23,8 @@ This project showcases my journey, experience, and projects with playful easter 
 - **Frontend:** React, TypeScript
 - **Styling:** Tailwind CSS, Chakra UI
 - **Icons:** Lucide React, custom SVGs
-- **Animations:** Framer Motion
-- **Utilities:** CountAPI, custom hooks
-- **Deployment:** Vercel / Netlify (TBD)
+- **Utilities:** Firebase, custom hooks
+- **Deployment:** Github pages
 
 ---
 
