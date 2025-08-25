@@ -15,7 +15,7 @@ export const Skills = () => {
     };
 
     return (
-        <Box className="text-purple-950 dark:text-white  py-10">
+        <Box className="text-purple-950 dark:text-white ">
             <Heading
                 as="h3"
                 size="lg"

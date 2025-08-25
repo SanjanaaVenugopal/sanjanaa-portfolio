@@ -5,9 +5,10 @@ type SkillCardProps = {
     title: string;
     icon: React.ElementType;
     onClick: () => void;
+    size?: number;
 }
 
-export const SkillCard = ({ title, icon: Icon, onClick }: SkillCardProps) => {
+export const SkillCard = ({ title, icon: Icon, onClick, size = 28 }: SkillCardProps) => {
     return (
         <Box
             as="button"
@@ -18,7 +19,7 @@ export const SkillCard = ({ title, icon: Icon, onClick }: SkillCardProps) => {
             borderRadius="sm"
         >
             <Flex direction="column" align="center" gap={3}>
-                <Icon size={28} className="opacity-90" />
+                <Icon size={size} className="opacity-90" />
                 <span className="font-semibold text-center">{title}</span>
             </Flex>
         </Box>

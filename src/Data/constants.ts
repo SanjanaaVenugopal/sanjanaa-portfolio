@@ -120,4 +120,8 @@ export enum ReportBugButtonTexts {
   no = "No",
 }
 
+export enum ExperiencesTexts {
+  header = "Experiences",
+}
+
 export const iconSize = 16;

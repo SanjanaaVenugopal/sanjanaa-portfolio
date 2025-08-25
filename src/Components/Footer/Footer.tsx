@@ -10,7 +10,7 @@ export const Footer = () => {
 
     return (
         <>
-            <footer>
+            <footer className = "py-4">
                 <div className="flex justify-center space-x-6 mb-3">
                     {
                         socialLinks.map(({ href, Icon }) => (
