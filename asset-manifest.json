@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/sanjanaa-portfolio/static/css/main.390cf7cc.css",
-    "main.js": "/sanjanaa-portfolio/static/js/main.a5534f54.js",
+    "main.css": "/sanjanaa-portfolio/static/css/main.276cf740.css",
+    "main.js": "/sanjanaa-portfolio/static/js/main.960cd87c.js",
     "static/js/453.49d8df1b.chunk.js": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js",
     "static/media/ProfilePic.jpg": "/sanjanaa-portfolio/static/media/ProfilePic.e084129b272c6fa45019.jpg",
     "static/media/cosmos.png": "/sanjanaa-portfolio/static/media/cosmos.f130d3d50b9d037305af.png",
     "static/media/VSCode.png": "/sanjanaa-portfolio/static/media/VSCode.28b96aa2f1e074abb309.png",
     "static/media/SLogo.png": "/sanjanaa-portfolio/static/media/SLogo.e6898d7fffd7e51ce268.png",
+    "static/media/AngryCat.png": "/sanjanaa-portfolio/static/media/AngryCat.c9dff23659b04d3878dd.png",
     "static/media/REST.png": "/sanjanaa-portfolio/static/media/REST.689237cc4a5a4a88b110.png",
     "static/media/Csharp.png": "/sanjanaa-portfolio/static/media/Csharp.0d974502a8152e2981ec.png",
     "static/media/copilot.png": "/sanjanaa-portfolio/static/media/copilot.b45dd094c16a0304c087.png",
     "static/media/FluentUI.svg": "/sanjanaa-portfolio/static/media/FluentUI.a338d43152465e765aef31e9c5472d31.svg",
     "index.html": "/sanjanaa-portfolio/index.html",
     "static/media/Kusto.svg": "/sanjanaa-portfolio/static/media/Kusto.b953ce5275729acb82158090a153b072.svg",
-    "main.390cf7cc.css.map": "/sanjanaa-portfolio/static/css/main.390cf7cc.css.map",
-    "main.a5534f54.js.map": "/sanjanaa-portfolio/static/js/main.a5534f54.js.map",
+    "main.276cf740.css.map": "/sanjanaa-portfolio/static/css/main.276cf740.css.map",
+    "main.960cd87c.js.map": "/sanjanaa-portfolio/static/js/main.960cd87c.js.map",
     "453.49d8df1b.chunk.js.map": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.390cf7cc.css",
-    "static/js/main.a5534f54.js"
+    "static/css/main.276cf740.css",
+    "static/js/main.960cd87c.js"
   ]
 }
