@@ -13,7 +13,6 @@ import {
 } from "@chakra-ui/react";
 import { ExperiencesTexts, iconSize } from "../../Data/constants";
 import { experiences } from "../../Data/ExperienceConstants";
-import { SkillCard } from "../Skills/SkillsCard";
 
 export default function Experience() {
     return (

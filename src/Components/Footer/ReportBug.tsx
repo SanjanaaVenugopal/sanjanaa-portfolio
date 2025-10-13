@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, Button, Image, IconButton, useDisclosure } from "@chakra-ui/react";
+import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, Button, Image, useDisclosure } from "@chakra-ui/react";
 import { Bug } from "lucide-react";
 import AngryCat from "../../Data/AngryCat.png"
 import { ReportBugButtonTexts, ReportBugTitle } from "../../Data/constants";
@@ -92,7 +92,7 @@ export const ReportBug = ({ size = 28 }) => {
                             )}
                         </>
                     )}
-                    {yesCount == 8 && (
+                    {yesCount === 8 && (
                         <ContactForm onResult={onClose} onClose={onClose} />
                     )}
 

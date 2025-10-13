@@ -9,7 +9,6 @@ import {
     ModalBody,
     ModalFooter,
     FormErrorMessage,
-    CloseButton,
 } from "@chakra-ui/react";
 import { ContactFormTexts } from "../../Data/constants";
 import { emailJS } from "../../EmailJS.config";

@@ -1,4 +1,4 @@
-import { Button, useDisclosure } from "@chakra-ui/react";
+import { useDisclosure } from "@chakra-ui/react";
 import { Contact2 } from "lucide-react";
 import { ContactMe } from "../CommandBar/ContactMe";
 import { socialLinks } from "../../Data/constants";
