@@ -8,23 +8,78 @@ import { SiRedux } from "react-icons/si"
 
 export const experiences = [
     {
-        company: "Microsoft",
-        role: "Full-stack Developer / Software Engineer",
-        logo: MS,
-        period: "2023 - Present",
-        description:
-            "Working on end-to-end features across data pipelines, frontend, and backend.",
-        projects: [{
-            projectName: "Lighthouse",
-            projectDetails: "1 liner about lighthouse",
-            domain: "Frontend, Data Engineering, System designing, Testing & Automation",
-            domainSkills: [
+          company: "Microsoft",
+          role: "Full-stack Developer / Software Engineer",
+          logo: MS,
+          period: "2023 - Present",         
+          description:
+            "Working on end-to-end features across data pipelines, frontend, and backend — with a strong focus on performance, automation, and scalable design.",
+          projects: [
+            {
+              projectName: "Lighthouse",
+              projectDetails: "Delivered scalable frontend features and automated testing frameworks to improve performance and reliability.",
+              domain: "Frontend, Data Engineering, System Design, Testing & Automation",
+              domainSkills: [
                 { name: "ReactJS", icon: FaReact },
                 { name: "Redux", icon: SiRedux },
-                { name: "Figma", icon: FaFigma }
-            ],
-            contribution: "Performance"
-        }]
+                { name: "Figma", icon: FaFigma },
+                { name: "Playwright", icon: SiPlaywright },
+                { name: "Power BI", icon: SiPowerbi },
+                { name: "CosmosVC", icon: SiAzurefunctions },
+                { name: "Kusto", icon: SiAzuredataexplorer }
+              ],
+              contribution: "Improved UI performance by 50%, increased test coverage to 80%, and built reusable components adopted across multiple teams. Led automation efforts and contributed to scalable data pipelines powering dashboards and alerts."
+            },
+            {
+              projectName: "Sales Advisor",
+              projectDetails: "Built high-impact features to enhance user experience and drive engagement through data-driven insights.",
+              domain: "Frontend, Backend, UX Engineering, Privacy & Security",
+              domainSkills: [
+                { name: "JavaScript", icon: SiJavascript },
+                { name: "TypeScript", icon: SiTypescript },
+                { name: "C#", icon: SiCsharp },
+                { name: "CosmosDB", icon: SiAzurefunctions },
+                { name: "Kusto", icon: SiAzuredataexplorer }
+              ],
+              contribution: "Designed and implemented secure, privacy-compliant features including feedback flows and license management. Reduced latency by 50% and improved user engagement through performance optimization and UX redesign."
+            },
+            {
+              projectName: "Automation & CI/CD",
+              projectDetails: "Developed robust automation frameworks and pipelines to ensure high-quality releases and faster development cycles.",
+              domain: "Testing & Automation, CI/CD, Quality Engineering",
+              domainSkills: [
+                { name: "Playwright", icon: SiPlaywright },
+                { name: "NYC", icon: SiJavascript },
+                { name: "Istanbul", icon: SiJavascript },
+                { name: "Azure DevOps", icon: SiAzuredevops }
+              ],
+              contribution: "Built end-to-end test automation with 80% coverage, integrated bug logging into CI/CD pipelines, and enabled real-time reporting via Power BI. Supported multiple teams in adopting automation best practices."
+            },
+            {
+              projectName: "Data Engineering & Dashboards",
+              projectDetails: "Engineered data pipelines and dashboards to enable actionable insights and improve operational efficiency.",
+              domain: "Data Engineering, Visualization, Privacy Compliance",
+              domainSkills: [
+                { name: "Power BI", icon: SiPowerbi },
+                { name: "SCOPE", icon: SiAzurefunctions },
+                { name: "CosmosVC", icon: SiAzuredataexplorer },
+                { name: "Kusto", icon: SiAzuredataexplorer }
+              ],
+              contribution: "Built scalable data pipelines and dashboards for tracking user engagement and product performance. Ensured privacy-compliant data handling and reduced incident volume through smarter alerting mechanisms."
+            },
+            {
+              projectName: "AI & Innovation",
+              projectDetails: "Built an AI-powered chat agent and contributed to hackathon projects recognized for innovation and impact.",
+              domain: "AI Integration, Backend Architecture, Tool Orchestration",
+              domainSkills: [
+                { name: "LangChain", icon: SiPython },
+                { name: "Azure OpenAI", icon: SiAzurefunctions },
+                { name: "Streamlit", icon: SiPython }
+              ],
+              contribution: "Developed a multi-server AI agent using LangChain and Azure OpenAI, integrating 47+ tools. Delivered a production-ready backend and UI for intelligent query handling and automation."
+            }
+          ]
+
     },
     {
         company: "IIT Madras",
