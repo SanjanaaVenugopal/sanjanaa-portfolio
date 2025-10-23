@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/sanjanaa-portfolio/static/css/main.bc9d64dc.css",
-    "main.js": "/sanjanaa-portfolio/static/js/main.951e2b72.js",
+    "main.css": "/sanjanaa-portfolio/static/css/main.5ab44212.css",
+    "main.js": "/sanjanaa-portfolio/static/js/main.d7ccf1fc.js",
     "static/js/453.49d8df1b.chunk.js": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js",
     "static/media/ProfilePic.jpg": "/sanjanaa-portfolio/static/media/ProfilePic.e084129b272c6fa45019.jpg",
     "static/media/IITM.png": "/sanjanaa-portfolio/static/media/IITM.2490d57181ac4ecda756.png",
+    "static/media/baby.png": "/sanjanaa-portfolio/static/media/baby.ebd88fc3ee7ea2afd646.png",
+    "static/media/RNSIT.png": "/sanjanaa-portfolio/static/media/RNSIT.5ce239f110597dbbb372.png",
     "static/media/cosmos.png": "/sanjanaa-portfolio/static/media/cosmos.f130d3d50b9d037305af.png",
     "static/media/VSCode.png": "/sanjanaa-portfolio/static/media/VSCode.28b96aa2f1e074abb309.png",
+    "static/media/Infosys.png": "/sanjanaa-portfolio/static/media/Infosys.6462f814ab40ebf9d61c.png",
     "static/media/SLogo.png": "/sanjanaa-portfolio/static/media/SLogo.e6898d7fffd7e51ce268.png",
     "static/media/AngryCat.png": "/sanjanaa-portfolio/static/media/AngryCat.c9dff23659b04d3878dd.png",
     "static/media/REST.png": "/sanjanaa-portfolio/static/media/REST.689237cc4a5a4a88b110.png",
     "static/media/MS.png": "/sanjanaa-portfolio/static/media/MS.11151872fdae60fcca60.png",
+    "static/media/Siemens.png": "/sanjanaa-portfolio/static/media/Siemens.861afd11f166da06687f.png",
     "static/media/Csharp.png": "/sanjanaa-portfolio/static/media/Csharp.0d974502a8152e2981ec.png",
     "static/media/copilot.png": "/sanjanaa-portfolio/static/media/copilot.b45dd094c16a0304c087.png",
-    "static/media/Infosys.jpeg": "/sanjanaa-portfolio/static/media/Infosys.eb844ab88ecc429fb19c.jpeg",
     "static/media/FluentUI.svg": "/sanjanaa-portfolio/static/media/FluentUI.a338d43152465e765aef31e9c5472d31.svg",
     "index.html": "/sanjanaa-portfolio/index.html",
     "static/media/Kusto.svg": "/sanjanaa-portfolio/static/media/Kusto.b953ce5275729acb82158090a153b072.svg",
-    "main.bc9d64dc.css.map": "/sanjanaa-portfolio/static/css/main.bc9d64dc.css.map",
-    "main.951e2b72.js.map": "/sanjanaa-portfolio/static/js/main.951e2b72.js.map",
+    "main.5ab44212.css.map": "/sanjanaa-portfolio/static/css/main.5ab44212.css.map",
+    "main.d7ccf1fc.js.map": "/sanjanaa-portfolio/static/js/main.d7ccf1fc.js.map",
     "453.49d8df1b.chunk.js.map": "/sanjanaa-portfolio/static/js/453.49d8df1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc9d64dc.css",
-    "static/js/main.951e2b72.js"
+    "static/css/main.5ab44212.css",
+    "static/js/main.d7ccf1fc.js"
   ]
 }
