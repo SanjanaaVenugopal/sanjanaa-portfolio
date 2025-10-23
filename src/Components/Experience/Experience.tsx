@@ -26,12 +26,12 @@ export default function Experience() {
             >
                 {ExperiencesTexts.header}
             </Heading>
-            <Accordion allowToggle defaultIndex={[0]} >
+            <Accordion allowToggle>
                 {experiences.map((exp, index) => (
                     <AccordionItem key={index} border="none">
                         <h2>
                             <AccordionButton className="hover:bg-purple-100 dark:hover:bg-purple-800
-          aria-expanded:bg-purple-200 dark:aria-expanded:bg-purple-700
+          aria-expanded:bg-purple-300 dark:aria-expanded:bg-purple-700
           aria-expanded:text-purple-950 dark:aria-expanded:text-white">
                                 <Flex align="center" flex="1" textAlign="left" gap={4}>
                                     <Box w="40px" h="40px" flexShrink={0}>
@@ -48,48 +48,44 @@ export default function Experience() {
                                 <AccordionIcon />
                             </AccordionButton>
                         </h2>
-                        <AccordionPanel pb={4}>
+                        <AccordionPanel>
                             {exp.description}
-                            {exp.projects.map((project, idx) => (
-                                <Accordion allowToggle mt={4}>
-                                    <AccordionItem border="none">
-                                        <AccordionButton>
-                                            <Box key={idx} mb={2}>
-                                                < HStack spacing={3} wrap="wrap" justify="center" >
-                                                    <strong>{project.projectName}</strong>:
-                                                    {project.domainSkills.map((skill, idx) => {
-                                                        const Icon = skill.icon;
-                                                        return (
-                                                            <Box
-                                                                key={skill.name}
-                                                                px={4}
-                                                                py={2}
-                                                                rounded="xl"
-                                                                className="backdrop-blur-md text-purple-950 dark:text-white flex items-center gap-2 background-black"
-                                                            >
-                                                                <Flex>
-                                                                    <Icon size={iconSize} className="opacity-90" />
-                                                                    <Text fontWeight="medium" className="text-center text-purple-950 dark:text-white/80">{skill.name}</Text>
-                                                                </Flex>
-                                                            </Box>);
-                                                    })}
-                                                </HStack>
-                                            </Box>
-
+                            {exp.domains.map((domain, idx) => (
+                                <Accordion allowToggle>
+                                    <AccordionItem key={idx} border="none">
+                                        <AccordionButton className="hover:bg-purple-50 dark:hover:bg-purple-900
+          aria-expanded:bg-purple-300 dark:aria-expanded:bg-purple-800
+          aria-expanded:text-purple-950 dark:aria-expanded:text-white">
+                                            <Flex align="center" flex="1" textAlign="left" gap={4}>
+                                                <Box>
+                                                    <strong>{domain.domainName}</strong>
+                                                </Box>
+                                            </Flex>
+                                            <AccordionIcon />
                                         </AccordionButton>
                                         <AccordionPanel>
                                             <>
-                                                <Box key={idx} mb={2}>
-                                                    <strong>Domain: {project.domain}</strong>
+                                                <Box>
+                                                    {domain.domainDescription}
                                                 </Box>
-                                                <Box key={idx} mb={2}>
-                                                    {project.projectDetails}
+                                                <Box>
+                                                    {domain.highlights}
                                                 </Box>
-                                                <Box key={idx} mb={2}>
-                                                    {project.contribution}
+                                                <Box
+                                                    className="backdrop-blur-md text-purple-950 dark:text-white flex items-center gap-2 background-black"
+                                                >
+                                                    <Text fontWeight="medium" className="text-center text-purple-950 dark:text-white/80">Tech: </Text>
+                                                    {domain.domainSkills.map((skill, idx) => {
+                                                        const Icon = skill.icon;
+                                                        return (
+                                                            <Flex>
+                                                                <Icon size={iconSize} className="opacity-90" />
+                                                                {/* <Text fontWeight="medium" className="text-center text-purple-950 dark:text-white/80">{skill.name}</Text> */}
+                                                            </Flex>
+                                                        );
+                                                    })}
                                                 </Box>
                                             </>
-
                                         </AccordionPanel>
                                     </AccordionItem>
                                 </Accordion>

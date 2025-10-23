@@ -1,8 +1,9 @@
 import MS from "./Logos/MS.png"
 import IITM from "./Logos/IITM.png"
-import Infosys from "./Logos/Infosys.jpeg"
-import Siemens from "./Logos/Siemens.jpeg"
+import Infosys from "./Logos/Infosys.png"
+import Siemens from "./Logos/Siemens.png"
 import RNSIT from "./Logos/RNSIT.png"
+import baby from "./Logos/baby.png"
 import { FaFigma, FaReact } from "react-icons/fa"
 import { SiJavascript, SiPython, SiRedux, SiTypescript } from "react-icons/si"
 import Playwright from "./Icons/Playwright.png";
@@ -10,82 +11,120 @@ import cosmos from "./Icons/cosmos.png";
 import Csharp from "./Icons/Csharp.png";
 import FluentUI from "./Icons/FluentUI.svg";
 import Kusto from "./Icons/Kusto.svg";
+import { IconType } from "react-icons/lib"
 
+export type Skill = {
+  name: string,
+  icon: IconType
+}
 
-export const experiences = [
+export type Domain = {
+  domainName: string,
+  domainDescription: string,
+  domainSkills: Skill[],
+  highlights: string[]
+}
+
+export type Experience = {
+  company: string,
+  role: string,
+  logo: any,
+  period: string,
+  description: string,
+  domains: Domain[]
+
+}
+
+export const experiences: Experience[] = [
   {
     company: "Microsoft",
     role: "Full-stack Developer / Software Engineer",
     logo: MS,
     period: "2023 - Present",
     description:
-      "Working on end-to-end features across data pipelines, frontend, and backend — with a strong focus on performance, automation, and scalable design.",
-    projects: [
+      "Building performant, scalable, and privacy-compliant systems end-to-end — across frontend, backend, automation, and AI innovation.",
+    domains: [
       {
-        projectName: "Lighthouse",
-        projectDetails: "",
-        domain: "Frontend, Data Engineering, System Design, Testing & Automation",
+        domainName: "Frontend",
+        domainDescription:
+          "Delivered modern, high-performance UI experiences with reusable components and design consistency across products.",
         domainSkills: [
           { name: "ReactJS", icon: FaReact },
           { name: "Redux", icon: SiRedux },
-          { name: "Figma", icon: FaFigma },
-          // { name: "Playwright", icon: Playwright },
-          // { name: "Power BI", icon: SiPowerbi },
-          // { name: "CosmosVC", icon: cosmos },
-          // { name: "Kusto", icon: SiAzuredataexplorer }
+          { name: "TypeScript", icon: SiTypescript },
+          // { name: "JavaScript", icon: SiJavascript },
+          // { name: "Figma", icon: FaFigma }
         ],
-        contribution: "Delivered scalable frontend features and automated testing frameworks to improve performance and reliability. Improved UI performance by 95%, increased test coverage to 80%, and built reusable components adopted across multiple teams. Led automation efforts and contributed to scalable data pipelines powering dashboards and alerts."
+        highlights: [
+          "Improved UI performance by 95% and raised automated test coverage to 80%.",
+          "Built reusable component library adopted across multiple teams.",
+          "Led UX redesign using Figma to improve engagement and accessibility.",
+          "Implemented secure, privacy-compliant frontend workflows for licensing and feedback."
+        ]
       },
       {
-        projectName: "Sales Advisor",
-        projectDetails: "",
-        domain: "Frontend, Backend, UX Engineering, Privacy & Security",
+        domainName: "Backend & System Design",
+        domainDescription:
+          "Architected reliable, low-latency systems and integrated scalable data APIs for distributed environments.",
         domainSkills: [
-          { name: "JavaScript", icon: SiJavascript },
           { name: "TypeScript", icon: SiTypescript },
-          // { name: "C#", icon: Csharp },
-          // { name: "CosmosDB", icon: cosmos },
+          // { name: "C#", icon: SiCsharp },
+          // { name: "Azure Functions", icon: SiAzurefunctions },
+          // { name: "Cosmos DB", icon: cosmos },
           // { name: "Kusto", icon: Kusto }
         ],
-        contribution: "Built high-impact features to enhance user experience and drive engagement through data-driven insights. Designed and implemented secure, privacy-compliant features including feedback flows and license management. Reduced latency by 95% and improved user engagement through performance optimization and UX redesign."
+        highlights: [
+          "Implemented secure, event-driven micro-features across multiple services by exploring multiple use cases of cosmos, kusto and redux db",
+        ]
       },
       {
-        projectName: "Automation & CI/CD",
-        projectDetails: "",
-        domain: "Testing & Automation, CI/CD, Quality Engineering",
+        domainName: "Testing, Automation & CI/CD",
+        domainDescription:
+          "Developed robust test automation and continuous integration systems to ensure release reliability.",
         domainSkills: [
           // { name: "Playwright", icon: Playwright },
           { name: "NYC", icon: SiJavascript },
           { name: "Istanbul", icon: SiJavascript },
           // { name: "Azure DevOps", icon: SiAzuredevops }
         ],
-        contribution: "Developed robust automation frameworks and pipelines to ensure high-quality releases and faster development cycles. Built end-to-end test automation with 80% coverage, integrated bug logging into CI/CD pipelines, and enabled real-time reporting via Power BI. Supported multiple teams in adopting automation best practices."
+        highlights: [
+          "Built E2E automation frameworks achieving 80% coverage.",
+          "Integrated test reporting and bug logging into CI/CD pipelines.",
+          "Enabled faster, high-quality releases across multiple teams."
+        ]
       },
       {
-        projectName: "Data Engineering & Dashboards",
-        projectDetails: "",
-        domain: "Data Engineering, Visualization, Privacy Compliance",
+        domainName: "Data Engineering & Visualization",
+        domainDescription:
+          "Engineered scalable data pipelines and dashboards to drive insights and operational efficiency.",
         domainSkills: [
           // { name: "Power BI", icon: SiPowerbi },
           // { name: "SCOPE", icon: SiAzurefunctions },
           // { name: "CosmosVC", icon: cosmos },
           // { name: "Kusto", icon: Kusto }
         ],
-        contribution: "Engineered data pipelines and dashboards to enable actionable insights and improve operational efficiency. Built scalable data pipelines and dashboards for tracking user engagement and product performance. Ensured privacy-compliant data handling and reduced incident volume through smarter alerting mechanisms."
+        highlights: [
+          "Developed privacy-compliant pipelines and dashboards for engagement analytics.",
+          "Automated alerting and reporting mechanisms reducing incident volume.",
+          "Built reusable data models for product performance tracking."
+        ]
       },
       {
-        projectName: "AI & Innovation",
-        projectDetails: "",
-        domain: "AI Integration, Backend Architecture, Tool Orchestration",
+        domainName: "AI & Innovation",
+        domainDescription:
+          "Explored intelligent automation and chat-based integrations using cutting-edge AI frameworks.",
         domainSkills: [
           { name: "LangChain", icon: SiPython },
           // { name: "Azure OpenAI", icon: SiAzurefunctions },
           { name: "Streamlit", icon: SiPython }
         ],
-        contribution: "Built an AI-powered chat agent and contributed to hackathon projects recognized for innovation and impact. Developed a multi-server AI agent using LangChain and Azure OpenAI, integrating 47+ tools. Delivered a production-ready backend and UI for intelligent query handling and automation."
+        highlights: [
+          "Developed an AI-powered chat agent integrating 47+ tools with LangChain & Azure OpenAI.",
+          "Led hackathon projects recognized for innovation and cross-team impact.",
+          "Delivered production-ready backend and UI for intelligent query orchestration."
+        ]
       }
     ]
-
   },
   {
     company: "IIT Madras",
@@ -93,17 +132,14 @@ export const experiences = [
     logo: IITM,
     period: "2021 - 2023",
     description:
-      "Master's in Computer Science with a focus on distributed systems and ML.",
-    projects: [{
-      projectName: "Lighthouse",
-      projectDetails: "1 liner about lighthouse",
-      domain: "Frontend",
+      "Masters in Computer Science with a focus on ML.",
+    domains: [{
+      domainName: "Machine Learning",
+      domainDescription: "IndicRASA",
       domainSkills: [
-        { name: "ReactJS", icon: FaReact },
-        { name: "Redux", icon: SiRedux },
-        { name: "Figma", icon: FaFigma }
+
       ],
-      contribution: "Performance"
+      highlights: []
     },
     ]
   },
@@ -113,12 +149,11 @@ export const experiences = [
     logo: Siemens,
     period: "May 2022 - Aug 2022",
     description: "",
-    projects: [{
-      projectName: "",
-      projectDetails: "",
-      domain: "",
+    domains: [{
+      domainName: "",
+      domainDescription: "",
       domainSkills: [],
-      contribution: ""
+      highlights: []
     }]
   },
   {
@@ -127,16 +162,15 @@ export const experiences = [
     logo: Infosys,
     period: "2019 - 2021",
     description: "",
-    projects: [{
-      projectName: "Lighthouse",
-      projectDetails: "1 liner about lighthouse",
-      domain: "Frontend",
+    domains: [{
+      domainName: "Lighthouse",
+      domainDescription: "1 liner about lighthouse",
       domainSkills: [
         { name: "ReactJS", icon: FaReact },
         { name: "Redux", icon: SiRedux },
         { name: "Figma", icon: FaFigma }
       ],
-      contribution: "Performance"
+      highlights: []
     }]
   },
   {
@@ -145,24 +179,23 @@ export const experiences = [
     logo: RNSIT,
     period: "2015 - 2019",
     description: "",
-    projects: [{
-      projectName: "Lighthouse",
-      projectDetails: "1 liner about lighthouse",
-      domain: "Frontend",
+    domains: [{
+      domainName: "Lighthouse",
+      domainDescription: "1 liner about lighthouse",
       domainSkills: [
         { name: "ReactJS", icon: FaReact },
         { name: "Redux", icon: SiRedux },
         { name: "Figma", icon: FaFigma }
       ],
-      contribution: "Performance"
+      highlights: []
     }]
   },
   {
     company: "Baby",
     role: "Being a baby",
-    logo: RNSIT,
+    logo: baby,
     period: "1997-2015",
-    description: "",
-    projects: []
+    description: "What more do you want to know?",
+    domains: []
   },
 ];
