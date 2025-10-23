@@ -10,6 +10,7 @@ import {
     Text,
     Heading,
     HStack,
+    Tooltip,
 } from "@chakra-ui/react";
 import { ExperiencesTexts, iconSize } from "../../Data/constants";
 import { experiences } from "../../Data/ExperienceConstants";
@@ -78,10 +79,20 @@ export default function Experience() {
                                                     {domain.domainSkills.map((skill, idx) => {
                                                         const Icon = skill.icon;
                                                         return (
-                                                            <Flex>
-                                                                <Icon size={iconSize} className="opacity-90" />
-                                                                {/* <Text fontWeight="medium" className="text-center text-purple-950 dark:text-white/80">{skill.name}</Text> */}
-                                                            </Flex>
+                                                            <Tooltip
+                                                                key={idx}
+                                                                label={skill.name}
+                                                                aria-label={skill.name}
+                                                                placement="top"
+                                                                openDelay={200}
+                                                                className="!bg-zinc-600/30 !backdrop-blur-md !text-white"
+                                                            >
+                                                                <Flex cursor="pointer"
+                                                                    _hover={{ transform: "scale(1.1)", transition: "0.2s ease" }}>
+                                                                    <Icon size={iconSize} className="opacity-90" />
+                                                                    {/* <Text fontWeight="medium" className="text-center text-purple-950 dark:text-white/80">{skill.name}</Text> */}
+                                                                </Flex>
+                                                            </Tooltip>
                                                         );
                                                     })}
                                                 </Box>
